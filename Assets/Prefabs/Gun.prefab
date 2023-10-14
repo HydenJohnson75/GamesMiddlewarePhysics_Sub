@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 809131959227971985}
-  - component: {fileID: 6400543615423576746}
+  - component: {fileID: 7926865492150649615}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -35,7 +35,7 @@ Transform:
   - {fileID: 100487846496172762}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6400543615423576746
+--- !u!114 &7926865492150649615
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44,15 +44,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5092650583816310108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db76d5a8836e6a14db748f56c39251e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 09d3bfd4c3e1b864aadc28935f29fcd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletRange: 100
-  fireRate: 50
-  reloadTime: 2
-  isAutomatic: 0
-  magazineSize: 5
-  barrelExit: {fileID: 8673083625364945055}
+  barrelLocation: {fileID: 100487846496172762}
+  spherePrefab: {fileID: 5573469835488445726, guid: 260c637d39493ca4d9f72d0c6a9bacea, type: 3}
 --- !u!1 &5721514278298066825
 GameObject:
   m_ObjectHideFlags: 0
